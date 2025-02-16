@@ -12,4 +12,8 @@ class DirectorsController < ApplicationController
     
     render({ :template => "director_templates/details"})
   end 
+
+  def youngest 
+    render({ :template => "director_templates/youngest"})
+  end 
 end 
